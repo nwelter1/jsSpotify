@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Movie Posters</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <!-- Start of Poster Section -->
+    <div class="container">
+        <button onclick="stopSnippet()">Stop Song</button> <!-- ToDo - Add JS functionality to stop music -->
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="getSong(this.id, event)">
+                <img src="images/Us-poster.jpg" alt="I got five on it" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="getSong(this.id, event)">
+                <img src="images/badboys-poster.jpg" alt="bad boy for life" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="getSong(this.id, event)">
+                <img src="images/color-purple-poster.jpg" alt="Maybe God Is Tryin' to Tell You Somethin'" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="getSong(this.id, event)">
+                <img src="images/harriet-poster.jpg" alt="stand up" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="getSong(this.id, event)">
+                <img src="images/ray-poster.jpg" alt="I've got a woman" class="gallery__img">
+            </figure>
+
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="getSong(this.id, event)">
+                <img src="images/what'slove-poster.jpg" alt="proud mary" class="gallery__img">
+            </figure>
+
+        </div>
+    </div>
+</body>
+</html>
